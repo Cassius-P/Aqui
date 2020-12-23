@@ -20,7 +20,6 @@ Dart is automatically installed during Flutter SDK installation
 flutter config --android-sdk path/to/android/sdk # set path to Android SDk for Flutter
 ```
 
-
 ```bash
 flutter doctor # check flutter config
 ```
