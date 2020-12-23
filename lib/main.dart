@@ -185,18 +185,18 @@ class _WebPageState extends State<WebPage> {
                 int i,
                 String s
                 ) async {
-              //showError();
+              showError();
               Timer(Duration(seconds: 2), () => {
-                //stopLoad()
+                stopLoad()
               });
               this.url = url;
             },
 
             onLoadHttpError: (InAppWebViewController controller, String url,
                 int i, String s) async {
-              //showError();
+              showError();
               Timer(Duration(seconds: 2), () => {
-                //stopLoad()
+                stopLoad()
               });
               this.url = url;
             },
