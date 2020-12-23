@@ -156,7 +156,7 @@ class _WebPageState extends State<WebPage> {
               setLoad();
               var connectivityResult = await (Connectivity().checkConnectivity());
               if (connectivityResult == ConnectivityResult.none && await getHTML(storage, url) != null) {
-                await controller.loadData(data: json.decode(await getHTML(storage, url)));
+                await controller.loadData(data: json.decode(await getHTML(storage, url)), baseUrl: url);
               }
             },
 

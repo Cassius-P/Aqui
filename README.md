@@ -4,13 +4,13 @@ Progressive Web App for [Aqui](https://aqui.e-node.net)
 
 ## Installation
 
-Flutter SDK & Dart
+######Flutter SDK & Dart
 
-* Flutter  1.22.3
-* Dart 2.10.3
+- Flutter  1.22.3
+- Dart 2.10.3
 
-Android SDK
-* API Level 28-30
+######Android SDK
+- API Level 28-30
 
 Dart is automatically installed during Flutter SDK installation
 
@@ -21,19 +21,19 @@ flutter config --android-sdk path/to/android/sdk # set path to Android SDk for F
 ```
 
 
-```bash
-flutter doctor # check flutter config
-```
-**Expected result :**
-```bash
-[√] Flutter (Channel unknown, 1.22.3, on Microsoft Windows [version 10.0.18363.1256], locale fr-FR)
-
-[√] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
-[!] Android Studio (version 4.1.0)
-    X Flutter plugin not installed; this adds Flutter specific functionality.
-    X Dart plugin not installed; this adds Dart specific functionality.
-[√] Connected device (1 available)
-```
+> ```bash
+> flutter doctor # check flutter config
+>```
+>**Expected result :**
+>```bash
+>[√] Flutter (Channel unknown, 1.22.3, on Microsoft Windows [version 10.0.18363.1256], locale fr-FR)
+>
+>[√] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+>[!] Android Studio (version 4.1.0) # optionnal depending of the IDE
+>    X Flutter plugin not installed; this adds Flutter specific functionality.
+>    X Dart plugin not installed; this adds Dart specific functionality.
+>[√] Connected device (1 available)
+>```
 
 ## Run
 Once your mobile device is connected run 
